@@ -1,0 +1,523 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+  <title>Aviso legal | Macarena Soriano Abogada</title>
+  <meta name="description" content="Aviso legal del sitio web de Macarena Soriano, abogada de familia en Madrid.">
+  <meta name="robots" content="index, follow">
+  <meta name="author" content="Macarena Soriano">
+  <meta name="theme-color" content="#faf8f3">
+  <link rel="canonical" href="https://www.sorianoabogada.com/aviso-legal.html">
+
+  <link rel="icon" href="favicon.ico" sizes="any">
+  <link rel="icon" href="favicon.svg" type="image/svg+xml">
+  <link rel="apple-touch-icon" href="favicon.ico">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Libre+Caslon+Display&family=Libre+Caslon+Text:ital,wght@0,400;0,700;1,400&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+
+  <style>
+    :root{
+      --ink:#171512;
+      --paper:#fff;
+      --paper-2:#f7f5f0;
+      --rule:#ded8cc;
+      --muted:#696356;
+      --muted-2:#938c7e;
+      --accent:#6e2a2a;
+      --blood:#8a1215;
+      --header-h:82px;
+    }
+
+    *{margin:0;padding:0;box-sizing:border-box}
+    html{scroll-behavior:smooth;scroll-padding-top:var(--header-h)}
+    body{
+      font-family:'Libre Caslon Text',serif;
+      background:var(--paper);
+      color:var(--ink);
+      line-height:1.75;
+      -webkit-font-smoothing:antialiased;
+      font-size:17px;
+      overflow-x:hidden;
+    }
+
+    h1,h2,h3,.display{font-family:'Libre Caslon Display',serif;font-weight:400}
+    a{color:inherit;text-decoration:none}
+    .container{width:min(1080px,100%);margin:auto;padding-inline:48px}
+
+    header{
+      position:fixed;
+      inset:0 0 auto;
+      z-index:100;
+      background:rgba(255,255,255,.95);
+      border-bottom:1px solid var(--rule);
+      backdrop-filter:blur(10px);
+    }
+
+    nav{
+      height:var(--header-h);
+      display:flex;
+      align-items:center;
+      justify-content:space-between;
+      width:min(1200px,100%);
+      padding-inline:48px;
+      margin:auto;
+      gap:28px;
+    }
+
+    .nav-mark{
+      font-family:'Libre Caslon Display',serif;
+      font-size:1.15rem;
+      white-space:nowrap;
+    }
+
+    .nav-back{
+      font-family:'Inter',sans-serif;
+      font-size:.7rem;
+      letter-spacing:.14em;
+      text-transform:uppercase;
+      padding-bottom:4px;
+      border-bottom:1px solid var(--ink);
+      white-space:nowrap;
+    }
+
+    .legal-hero{
+      padding:calc(var(--header-h) + 105px) 0 85px;
+      border-bottom:1px solid var(--rule);
+      background:linear-gradient(180deg,#fff 0%,#faf8f3 100%);
+    }
+
+    .eyebrow{
+      font-family:'Inter',sans-serif;
+      font-size:.74rem;
+      letter-spacing:.28em;
+      text-transform:uppercase;
+      color:var(--muted);
+      margin-bottom:28px;
+    }
+
+    h1{
+      font-size:clamp(3.2rem,7vw,5.4rem);
+      line-height:.98;
+      letter-spacing:-.02em;
+      margin-bottom:28px;
+    }
+
+    .hero-lead{
+      max-width:670px;
+      color:#3b3730;
+      font-size:1.08rem;
+    }
+
+    main{padding:92px 0 120px}
+
+    .legal-layout{
+      display:grid;
+      grid-template-columns:240px minmax(0,1fr);
+      gap:80px;
+      align-items:start;
+    }
+
+    .legal-nav{position:sticky;top:calc(var(--header-h) + 35px)}
+
+    .legal-index-toggle{
+      display:none;
+      width:100%;
+      align-items:center;
+      justify-content:space-between;
+      gap:18px;
+      padding:16px 0;
+      background:transparent;
+      border:0;
+      border-top:1px solid var(--rule);
+      border-bottom:1px solid var(--rule);
+      color:var(--ink);
+      font-family:'Inter',sans-serif;
+      font-size:.72rem;
+      letter-spacing:.1em;
+      text-transform:uppercase;
+      cursor:pointer;
+      text-align:left;
+    }
+
+    .legal-index-toggle::after{
+      content:'☰';
+      flex:0 0 auto;
+      font-family:'Inter',sans-serif;
+      font-size:.9rem;
+      line-height:1;
+      color:var(--accent);
+    }
+
+    .legal-index-toggle[aria-expanded='true']::after{content:'×';font-size:1.25rem}
+    .legal-index-toggle:focus-visible{outline:2px solid var(--accent);outline-offset:5px}
+
+    .legal-index{border-top:1px solid var(--rule)}
+
+    .legal-index a{
+      display:block;
+      padding:13px 0;
+      border-bottom:1px solid var(--rule);
+      font-family:'Inter',sans-serif;
+      font-size:.72rem;
+      letter-spacing:.08em;
+      text-transform:uppercase;
+      color:var(--muted);
+      transition:color .2s ease;
+    }
+
+    .legal-index a:hover{color:var(--accent)}
+
+    .legal-content{max-width:730px}
+
+    .legal-section{
+      padding:0 0 56px;
+      margin-bottom:56px;
+      border-bottom:1px solid var(--rule);
+      scroll-margin-top:calc(var(--header-h) + 24px);
+    }
+
+    .legal-section:last-child{border-bottom:none;margin-bottom:0;padding-bottom:0}
+
+    .section-number{
+      display:block;
+      font-family:'Inter',sans-serif;
+      font-size:.68rem;
+      letter-spacing:.18em;
+      text-transform:uppercase;
+      color:var(--blood);
+      margin-bottom:12px;
+    }
+
+    h2{
+      font-size:clamp(1.85rem,3.2vw,2.55rem);
+      line-height:1.15;
+      margin-bottom:24px;
+    }
+
+    .legal-section p{color:#3b3730;margin-bottom:18px}
+    .legal-section p:last-child{margin-bottom:0}
+
+    .identity-card{
+      margin:30px 0;
+      background:var(--paper-2);
+      border-left:5px solid var(--blood);
+      padding:30px 34px;
+    }
+
+    .identity-row{
+      display:grid;
+      grid-template-columns:190px minmax(0,1fr);
+      gap:22px;
+      padding:10px 0;
+      border-bottom:1px solid var(--rule);
+    }
+
+    .identity-row:last-child{border-bottom:none}
+
+    .identity-label{
+      font-family:'Inter',sans-serif;
+      font-size:.68rem;
+      letter-spacing:.12em;
+      text-transform:uppercase;
+      color:var(--muted-2);
+    }
+
+    .identity-value{overflow-wrap:anywhere}
+    .pending{color:var(--accent);font-style:italic}
+
+    .legal-list{margin:18px 0 0;list-style:none}
+    .legal-list li{position:relative;padding:7px 0 7px 22px;color:#3b3730}
+    .legal-list li::before{content:'—';position:absolute;left:0;color:var(--accent)}
+
+    .contact-box{
+      margin-top:30px;
+      padding:28px 0;
+      border-top:1px solid var(--rule);
+      border-bottom:1px solid var(--rule);
+    }
+
+    .contact-box a{border-bottom:1px solid var(--accent)}
+
+    footer{
+      padding:52px 0;
+      border-top:1px solid var(--rule);
+      font-family:'Inter',sans-serif;
+      background:#fff;
+    }
+
+    .footer-row{
+      display:flex;
+      justify-content:space-between;
+      align-items:center;
+      gap:18px;
+      flex-wrap:wrap;
+    }
+
+    .footer-name{font-family:'Libre Caslon Display',serif;font-size:1.05rem}
+    .footer-links{display:flex;align-items:center;gap:22px;flex-wrap:wrap}
+    .footer-links a,.footer-legal{font-size:.74rem;color:var(--muted-2)}
+    .footer-links a{border-bottom:1px solid transparent}
+    .footer-links a:hover{border-color:var(--muted-2)}
+
+    @media(max-width:850px){
+      :root{--header-h:70px}
+      .container,nav{padding-inline:24px}
+      .legal-hero{padding-top:calc(var(--header-h) + 58px)}
+      .legal-layout{grid-template-columns:1fr;gap:0}
+      .legal-nav{
+        position:fixed;
+        top:calc(var(--header-h) + 14px);
+        right:16px;
+        left:auto;
+        z-index:105;
+        width:auto;
+        background:transparent;
+        border:0;
+        box-shadow:none;
+        backdrop-filter:none;
+      }
+      .legal-index-toggle{
+        display:flex;
+        width:auto;
+        min-width:88px;
+        padding:11px 13px;
+        border:1px solid var(--rule);
+        border-radius:999px;
+        background:rgba(255,255,255,.96);
+        box-shadow:0 6px 20px rgba(23,21,18,.10);
+        backdrop-filter:blur(10px);
+        font-size:.64rem;
+        letter-spacing:.08em;
+      }
+      .legal-index{
+        display:none;
+        position:absolute;
+        top:calc(100% + 9px);
+        right:0;
+        width:min(310px,calc(100vw - 32px));
+        padding:6px 18px;
+        border:1px solid var(--rule);
+        background:rgba(255,255,255,.985);
+        box-shadow:0 14px 36px rgba(23,21,18,.14);
+        max-height:calc(100svh - var(--header-h) - 90px);
+        overflow-y:auto;
+        overscroll-behavior:contain;
+        backdrop-filter:blur(12px);
+      }
+      .legal-index.is-open{display:block}
+      .legal-index a{padding:13px 0}
+      .legal-section{scroll-margin-top:calc(var(--header-h) + 18px)}
+      main{padding:70px 0 90px}
+    }
+
+    @media(max-width:560px){
+      body{font-size:16px}
+      .nav-mark{font-size:1rem}
+      .nav-back{font-size:.62rem;letter-spacing:.1em}
+      .legal-hero{padding-bottom:65px}
+      .identity-card{padding:24px 22px}
+      .identity-row{grid-template-columns:1fr;gap:4px}
+      .legal-section{padding-bottom:44px;margin-bottom:44px}
+      .footer-row{align-items:flex-start;flex-direction:column}
+    }
+
+    @media(max-width:380px){
+      nav{padding-inline:16px}
+      .container{padding-inline:18px}
+      .legal-nav{left:16px;right:16px}
+    }
+
+    @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}*{transition:none!important}}
+  </style>
+</head>
+<body>
+
+<header>
+  <nav>
+    <a class="nav-mark" href="index.html" aria-label="Volver a la página principal">Macarena Soriano</a>
+    <a class="nav-back" href="index.html">Volver al inicio</a>
+  </nav>
+</header>
+
+<section class="legal-hero">
+  <div class="container">
+    <div class="eyebrow">Información jurídica del sitio web</div>
+    <h1>Aviso legal</h1>
+    <p class="hero-lead">Condiciones de acceso y uso de la página web profesional de Macarena Soriano.</p>
+  </div>
+</section>
+
+<main>
+  <div class="container legal-layout">
+    <div class="legal-nav">
+      <button class="legal-index-toggle" type="button" aria-expanded="false" aria-controls="legal-index">
+        Índice del aviso legal
+      </button>
+      <aside class="legal-index" id="legal-index" aria-label="Índice del aviso legal">
+        <a href="#titular">Titular del sitio</a>
+        <a href="#objeto">Objeto</a>
+        <a href="#uso">Condiciones de uso</a>
+        <a href="#propiedad">Propiedad intelectual</a>
+        <a href="#responsabilidad">Responsabilidad</a>
+        <a href="#enlaces">Enlaces externos</a>
+        <a href="#datos">Protección de datos</a>
+        <a href="#legislacion">Legislación aplicable</a>
+      </aside>
+    </div>
+
+    <article class="legal-content">
+      <section class="legal-section" id="titular">
+        <span class="section-number">01 · Identificación</span>
+        <h2>Titular del sitio web</h2>
+        <p>En cumplimiento de la normativa aplicable a los servicios de la sociedad de la información, se facilitan a continuación los datos identificativos de la titular de este sitio web:</p>
+
+        <div class="identity-card">
+          <div class="identity-row">
+            <div class="identity-label">Titular</div>
+            <div class="identity-value">Esperanza García Soriano</div>
+          </div>
+
+          <div class="identity-row">
+            <div class="identity-label">Domicilio profesional</div>
+            <div class="identity-value">Calle Juan Bravo, 5, 1.º izquierda, 28006 Madrid</div>
+          </div>
+          <div class="identity-row">
+            <div class="identity-label">Teléfono</div>
+            <div class="identity-value"><a href="tel:+34637335575">+34 637 33 55 75</a></div>
+          </div>
+          <div class="identity-row">
+            <div class="identity-label">Correo electrónico</div>
+            <div class="identity-value"><a href="mailto:sorianoabogada@gmail.com">sorianoabogada@gmail.com</a></div>
+          </div>
+          <div class="identity-row">
+            <div class="identity-label">Profesión</div>
+            <div class="identity-value">Abogada</div>
+          </div>
+          <div class="identity-row">
+            <div class="identity-label">Colegio profesional</div>
+            <div class="identity-value pending">ICAM Ilustre Colegio de Abogados de Madrid</div>
+          </div>
+          <div class="identity-row">
+            <div class="identity-label">Número de colegiada</div>
+            <div class="identity-value pending">ICAM 7939</div>
+          </div>
+          <div class="identity-row">
+            <div class="identity-label">Título profesional</div>
+            <div class="identity-value">Abogada · título expedido en España</div>
+          </div>
+        </div>
+
+        <p>La actividad profesional se encuentra sometida al Estatuto General de la Abogacía Española, al Código Deontológico de la Abogacía Española y a las normas profesionales del colegio al que pertenece la titular.</p>
+      </section>
+
+      <section class="legal-section" id="objeto">
+        <span class="section-number">02 · Finalidad</span>
+        <h2>Objeto del sitio web</h2>
+        <p>Este sitio web tiene como finalidad presentar la actividad profesional del despacho, informar de sus áreas de práctica y facilitar vías de contacto para solicitar información o concertar una consulta.</p>
+        <p>Los contenidos publicados tienen carácter general e informativo. No constituyen asesoramiento jurídico individualizado ni sustituyen el análisis de las circunstancias concretas de cada asunto.</p>
+        <p>El envío de una comunicación mediante correo electrónico, teléfono o WhatsApp no supone, por sí mismo, la aceptación de un encargo profesional ni crea una relación entre abogada y cliente.</p>
+      </section>
+
+      <section class="legal-section" id="uso">
+        <span class="section-number">03 · Acceso</span>
+        <h2>Condiciones de acceso y uso</h2>
+        <p>El acceso y la navegación por este sitio web atribuyen la condición de usuario e implican la aceptación de las presentes condiciones.</p>
+        <p>El usuario se compromete a utilizar la página, sus contenidos y sus servicios de forma lícita, diligente y respetuosa con los derechos de terceros.</p>
+        <ul class="legal-list">
+          <li>No se permite utilizar la web con fines ilícitos o contrarios a la buena fe.</li>
+          <li>No se permite introducir código malicioso ni realizar actuaciones que puedan dañar, alterar o sobrecargar la página.</li>
+          <li>No se permite reproducir o explotar sus contenidos salvo autorización expresa o habilitación legal.</li>
+        </ul>
+      </section>
+
+      <section class="legal-section" id="propiedad">
+        <span class="section-number">04 · Contenidos</span>
+        <h2>Propiedad intelectual e industrial</h2>
+        <p>Los textos, fotografías, logotipos, diseño, estructura, elementos gráficos y demás contenidos de este sitio web están protegidos por la normativa de propiedad intelectual e industrial y pertenecen a su titular o se utilizan con la autorización correspondiente.</p>
+        <p>Queda prohibida su reproducción, distribución, transformación, comunicación pública, puesta a disposición o explotación, total o parcial, sin autorización previa y expresa, salvo en los supuestos permitidos por la legislación vigente.</p>
+        <p>La consulta y navegación por la página no atribuyen al usuario ningún derecho de propiedad sobre sus contenidos.</p>
+      </section>
+
+      <section class="legal-section" id="responsabilidad">
+        <span class="section-number">05 · Garantías</span>
+        <h2>Responsabilidad</h2>
+        <p>La titular procura que la información publicada sea clara, correcta y se encuentre actualizada. No obstante, no puede garantizar la inexistencia de errores, omisiones o interrupciones puntuales del servicio.</p>
+        <p>La titular no responde de las decisiones adoptadas únicamente a partir de la información general contenida en la web. Cada caso jurídico requiere un estudio individualizado y la formalización previa del correspondiente encargo profesional.</p>
+        <p>Tampoco se garantiza la disponibilidad permanente del sitio web, aunque se adoptarán medidas razonables para restablecer su funcionamiento cuando resulte posible.</p>
+      </section>
+
+      <section class="legal-section" id="enlaces">
+        <span class="section-number">06 · Terceros</span>
+        <h2>Enlaces externos</h2>
+        <p>La página puede contener enlaces a sitios web o servicios gestionados por terceros. Estos enlaces se facilitan únicamente para ampliar información o facilitar determinadas funcionalidades.</p>
+        <p>La titular no controla ni asume responsabilidad por el contenido, disponibilidad, seguridad o políticas de privacidad de páginas externas. El acceso a ellas se realiza bajo la responsabilidad del usuario.</p>
+      </section>
+
+      <section class="legal-section" id="datos">
+        <span class="section-number">07 · Privacidad</span>
+        <h2>Protección de datos personales</h2>
+        <p>Los datos personales que el usuario facilite voluntariamente mediante correo electrónico, teléfono o WhatsApp se utilizarán para atender su consulta, mantener las comunicaciones necesarias y, en su caso, gestionar la relación profesional solicitada.</p>
+        <p>El tratamiento de la información se realizará conforme a la normativa aplicable en materia de protección de datos y respetando el deber de confidencialidad y el secreto profesional.</p>
+        <p>La información completa sobre el tratamiento de datos, las bases jurídicas, los plazos de conservación y el ejercicio de derechos deberá recogerse en la correspondiente Política de privacidad.</p>
+
+        <div class="contact-box">
+          Para cualquier cuestión relacionada con la privacidad puede escribir a
+          <a href="mailto:sorianoabogada@gmail.com">sorianoabogada@gmail.com</a>.
+        </div>
+      </section>
+
+      <section class="legal-section" id="legislacion">
+        <span class="section-number">08 · Normativa</span>
+        <h2>Legislación aplicable</h2>
+        <p>El presente aviso legal se rige por la legislación española.</p>
+        <p>Las controversias relacionadas con el acceso o uso de este sitio web se someterán a los juzgados y tribunales que resulten competentes conforme a la normativa aplicable, sin perjuicio de los derechos que correspondan a consumidores y usuarios.</p>
+        <p>Última actualización: julio de 2026.</p>
+      </section>
+    </article>
+  </div>
+</main>
+
+<footer>
+  <div class="container footer-row">
+    <div class="footer-name">Macarena Soriano</div>
+    <div class="footer-links">
+      <a href="index.html">Página principal</a>
+      <span class="footer-legal">&copy; 2026 Macarena Soriano. Todos los derechos reservados.</span>
+    </div>
+  </div>
+</footer>
+
+<script>
+  document.addEventListener('DOMContentLoaded', function () {
+    const toggle = document.querySelector('.legal-index-toggle');
+    const menu = document.getElementById('legal-index');
+    if (!toggle || !menu) return;
+
+    toggle.addEventListener('click', function () {
+      const open = toggle.getAttribute('aria-expanded') === 'true';
+      toggle.setAttribute('aria-expanded', String(!open));
+      menu.classList.toggle('is-open', !open);
+    });
+
+    menu.querySelectorAll('a').forEach(function (link) {
+      link.addEventListener('click', function () {
+        if (window.matchMedia('(max-width: 850px)').matches) {
+          toggle.setAttribute('aria-expanded', 'false');
+          menu.classList.remove('is-open');
+        }
+      });
+    });
+
+    window.addEventListener('resize', function () {
+      if (!window.matchMedia('(max-width: 850px)').matches) {
+        toggle.setAttribute('aria-expanded', 'false');
+        menu.classList.remove('is-open');
+      }
+    });
+  });
+</script>
+
+</body>
+</html>
